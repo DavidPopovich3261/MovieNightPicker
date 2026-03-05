@@ -1,0 +1,20 @@
+* {
+    margin: 0%;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+.grids {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.m {
+    height: 150px;
+    width: 350px;
+    display: inline-block;
+}
